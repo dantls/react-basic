@@ -1,5 +1,14 @@
-body{
-    background: #7159c1;
-    color: #FFF;
-    font: Arial,Helvetica,sans-serif;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body{
+    background: #F2F2F2;
+    color: #333;
+    font: Arial,Helvetica,sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+

@@ -2,11 +2,17 @@ import React from 'react';
 
 import './App.css';
 
-import TechList from './components/TechList';
+import PostList from './components/PostList/PostList';
+import Header from './components/Header';
 
 function App()
 {
- return <TechList/>
+ return (
+    <>
+    <Header/>
+    <PostList/>   
+    </>
+ )
  
 }
 
